@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.MyApp.almohamady.worckshop005.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtStr_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Enter String 1"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtStr_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Enter String 2"
+            android:inputType="textPersonName" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnConcatenate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="concatenateString"
+                    android:text="Concatenate" />
+
+                <Button
+                    android:id="@+id/btnReplace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="replaceString"
+                    android:text="Replace" />
+
+                <Button
+                    android:id="@+id/btnSplit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="splitString"
+                    android:text="SPLIT" />
+
+                <Button
+                    android:id="@+id/btnUpperCase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="upperCaseString"
+                    android:text="Upper Case" />
+
+                <Button
+                    android:id="@+id/btnLowerCase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="lowerCaseString"
+                    android:text="Lower Case" />
+
+                <Button
+                    android:id="@+id/btnStartWith"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="startWithString"
+                    android:text="Star tWith" />
+
+                <Button
+                    android:id="@+id/btnEndWith"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="endWithString"
+                    android:text="End With" />
+
+                <Button
+                    android:id="@+id/btnContains"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="containsString"
+                    android:text="Contains" />
+
+
+                <Button
+                    android:id="@+id/btnEqual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="equalString"
+                    android:text="Equal" />
+
+                <Button
+                    android:id="@+id/btnIsEmpty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="isEmptyString"
+                    android:text="Is Empty" />
+
+                <Button
+                    android:id="@+id/btnTrim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="trimString"
+                    android:text="Trim" />
+
+                <Button
+                    android:id="@+id/btnSubString"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="subStringString"
+                    android:text="Sub String" />
+
+                <Button
+                    android:id="@+id/btnIndexOf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="indexOfString"
+                    android:text="Index Of" />
+
+                <Button
+                    android:id="@+id/btnLength"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:onClick="lengthString"
+                    android:text="Length" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
